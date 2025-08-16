@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brush Reveal Effect</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="image-container" id="imageContainer">
+            <img src="woman-portrait.png" alt="Woman Portrait" class="base-image" id="baseImage" />
+            <canvas class="brush-canvas" id="brushCanvas"></canvas>
+        </div>
+    </div>
+
+    <div class="instruction-overlay" id="instructionOverlay">
+        <div class="instruction-text">
+            <span class="desktop-text">Move your mouse to reveal the hair</span>
+            <span class="mobile-text">Swipe your finger to reveal the hair</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
